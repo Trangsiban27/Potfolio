@@ -21,7 +21,7 @@ const ProjectCard = ({ title, desc }: Props) => {
         <h1 className="mb-5 text-2xl font-semibold text-white">{title}</h1>
         <p className="mb-5">{desc}</p>
         <Link
-          to="/"
+          to="/project/crownfunding"
           className="inline-flex items-center px-5 py-2 text-lg text-white transition-all border-2 gap-x-2 group border-primary2 hover:bg-primary2 hover:border-none"
         >
           Xem thêm

@@ -47,7 +47,7 @@ const TimeLine = () => {
         {timeline.map((content) => (
           <TabsContent
             value={content.value}
-            className="w-full max-w-[60%] p-10 bg-gray-800 rounded-lg max-h-[300px]"
+            className="w-full max-w-[60%] p-10 bg-gray-800 rounded-lg min-h-[150px] max-h-[300px]"
           >
             <h1 className="mb-4 text-2xl font-semibold text-white">
               {content.title}
